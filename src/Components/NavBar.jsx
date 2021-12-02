@@ -15,14 +15,16 @@ const styles = makeStyles({
 const NavBar = () => {
   const classes = styles();
   return (
-    <AppBar className={classes.header} position="static ">
+    <AppBar className={classes.header} position="static">
       <Toolbar>
         <NavLink className={classes.tabs} to="./" exact>
           CrudX
         </NavLink>
+
         <NavLink className={classes.tabs} to="./all" exact>
           AllUsers
         </NavLink>
+
         <NavLink className={classes.tabs} to="./add" exact>
           AddUser
         </NavLink>
