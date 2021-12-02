@@ -1,5 +1,16 @@
+import i from "../images/skk.jpg";
+
 const CrudX = () => {
-  return <p>This is the Crudx body</p>;
+  return (
+    <>
+      <img
+        src={i}
+        style={{
+          width: "100vw",
+        }}
+      />
+    </>
+  );
 };
 
 export default CrudX;
