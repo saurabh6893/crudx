@@ -1,18 +1,11 @@
 import { getUsers } from "../Service/api";
 
-const AllUsers = async () => {
-  const [users, setUsers] = useState([]);
-
-  useEffect(() => {
-    getAllUsers();
-  }, []);
-
+const AllUsers = () => {
   const getAllUsers = async () => {
     const response = await getUsers();
-    console.log(response.data);
-    setUsers(response.data);
+    console.log(response);
   };
-  return <p>Hello from all</p>;
-};
 
+  return <>axis from user</>;
+};
 export default AllUsers;
