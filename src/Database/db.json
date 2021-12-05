@@ -2,9 +2,33 @@
   "users": [
     {
       "name": "Monkey.D.luffy",
-      "occupation": "pirate",
+      "crew": "Strawhat pirates",
       "Bounty": "1,500,000,000",
       "ship": "Thousand-Sunny"
+    },
+    {
+      "name": "Charlotte-Katakuri",
+      "crew": "Big Mom pirates",
+      "Bounty": "1,057,000,000",
+      "ship": "NA"
+    },
+    {
+      "name": "Marco",
+      "crew": "Fallen WhiteBeard Pirates",
+      "Bounty": "1,374,00,000",
+      "ship": "na"
+    },
+    {
+      "name": "Ben-Beckman",
+      "crew": "Red Haired Pirates",
+      "Bounty": "UNKNOWN",
+      "ship": "The RED Force"
+    },
+    {
+      "name": "Marshall D Teach",
+      "crew": "BlackBeard pirates",
+      "Bounty": "2,247,600,000",
+      "ship": "Sabre Of XEBEC"
     }
   ]
 }
